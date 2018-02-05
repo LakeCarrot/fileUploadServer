@@ -65,5 +65,5 @@ protobuf {
   }
 }
 
-mainClassName = 'FileUploadServer'
+mainClassName = 'fileuploadserver.FileUploadServer'
 

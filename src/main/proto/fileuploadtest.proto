@@ -2,15 +2,14 @@ syntax = "proto3";
 package fileuploadtest;
 
 service FileUploadTest {
-	    rpc Upload(stream Request) returns (Response) {}
+	rpc Upload(stream Request) returns (Response) {}
 }
 
 message Request {
-	    string name = 1;
-			    bytes data = 2;
-					    int64 offset = 3;
+	string name = 1;
+	bytes data = 2;
 }
 
 message Response {
-	    string message = 1;
+	string message = 1;
 }
